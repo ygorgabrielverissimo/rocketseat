@@ -1,0 +1,44 @@
+*********** Tipos de dados *********************
+
+STRINGS podem ser utilizadas de três maneiras.
+
+console.log(" ") quando por algum motivo dentro do texto precisar usar aspas simples 
+exemplo: console.log(" 'verde' ou  'azul' ").
+
+console.log(' ') quando por algum motivo dentro do texto precisar usar aspas duplas 
+exemplo: console.log(' "verde" ou  "azul" ').
+
+console.log(``) grase permite multiplas linhas permite expressão de linguagem.
+exemplo: console.log(`ygor ${1 + 1}`) + resultado será -> ygor 2 
+
+number 
+
+33 inteiro
+33,3 real ou float 
+NoN not a number 
+Infinity /  infinito.
+
+boolean 
+
+Verdadeiro ou falso.
+
+Null ou undefined
+
+Null
+Objeto que não possui valor atribuído
+
+Undefined
+quando por algum motivo dentro do texto precisar usar aspas simples 
+exemplo: console.log(" 'verde' ou  azul").
+
+Object
+    * Probiedades / atributos
+    * Funcionalidades / Métodos
+
+console.log({
+    name: "Ygor",
+    idade: 36,
+    andar: function(){
+        console.log('andar')
+    }
+})

@@ -42,3 +42,62 @@ console.log({
         console.log('andar')
     }
 })
+
+Array (vetores)
+uma lista
+Agrupameno de dados
+
+console.log([
+    "Leite",
+    "Ovos",
+    2,
+    3
+    ])
+
+******************* Aula variaveis***********
+
+três tipos 
+
+var   sofre alterações
+Let   sofre alterações  
+const // não muda seu valor durante operação.
+
+*********** Scope ******************
+
+Bloco statement{
+    qualquer código.
+}
+
+****Var é uma variável global e pode ser referenciada em qualquer lugar do código
+diferente do let e const. 
+
+histing do conceito elevação joga toda variável para cima
+e a define como undedined. 
+
+*** Let funciona somente no scopo local
+ e só pode ser utulizado depois da declaração
+só funciona dentro do scopo.
+
+Em Js para concatenar valores parta apenas separar
+por '' e o simbolo de  +
+
+exemplo:
+Var nome ="Ygor"
+let Age = 28
+isHuman = true
+
+console.log('O '+ name +' tem'+ age +'anos')
+segunda forma de concatenação utilizando ``
+console.log (O ${name} tem ${age} anos)
+
+
+Declaração de um Objeto ***
+
+const person ={
+    name: 'Ygor'
+    age: 30,
+    wieght:118,
+    isAdmin = true
+}
+
+
